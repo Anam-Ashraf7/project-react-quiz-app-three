@@ -1,0 +1,175 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #47398d;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#home {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home h1{
+  color: white;
+}
+
+#home button {
+  background-color: #0ab306;
+  padding: 10px 100px;
+  margin: 30px;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#quiz {
+  background-color: white;
+  color: black;
+  height: 70%;
+  width: 80%;
+  text-align: center;
+  border-left: 5px solid #9580ff;
+}
+
+#quiz h1 {
+  padding: 30px;
+}
+
+#quiz p:nth-child(3) {
+  padding: 30px;
+  font-size: 150%;
+}
+
+#question-number {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.options button {
+  height: 50px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #1ea1f1;
+  color: white;
+  font-size: 100%;
+}
+
+.options button:hover {
+  background-color: rgba(30, 161, 241,0.8);
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 100px;
+  justify-content: center;
+  margin: 40px;
+}
+
+.navigation button {
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+#prevBtn {
+  color: white;
+  background-color: #3e7eaa;
+}
+
+#nextBtn {
+  color: white;
+  background-color: #008001;
+}
+
+#quitBtn {
+  color: white;
+  background-color: #ff0000;
+}
+
+#finishBtn {
+  border: 2px solid gray;
+}
+
+#result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  height: 100vh;
+}
+
+#result-title {
+  padding-bottom: 20px;
+  font-size: 3rem;
+}
+
+#playAgain{
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #2b00ff;
+  color: #2b00ff;
+}
+
+#goHome {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #008001;
+  color: #008001;
+}
+
+#result {
+  color: black;
+  background-color: white;
+  border-left: 5px solid #9580ff;
+  height: 45%;
+  width: 50%;
+}
+
+#result > p{
+  padding: 30px;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#result h1 {
+  color: blue;
+}
+
+#quiz-details {
+  padding: 30px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
