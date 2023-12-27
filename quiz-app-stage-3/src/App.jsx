@@ -39,7 +39,7 @@ function App() {
   const handleCount = (value) => {
     value == "left" ? 
     count != 0 ? setCount(count - 1) : setCount(0):
-    count == quizQuestion.length - 1 ? navigate("/result") : setCount(count+1)
+    count == quizQuestion.length - 1 ? navigate("/project-react-quiz-app-three/result") : setCount(count+1)
 }
 
   return (
