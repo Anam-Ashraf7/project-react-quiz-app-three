@@ -45,17 +45,17 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Home 
+        <Route path='/project-react-quiz-app-three' element={<Home 
           setCount={setCount} 
           setScore={setScore} 
           setquestionAnswered={setquestionAnswered}
           questionAnswered={questionAnswered} />}/>
-        <Route path='/quiz' element={<Quiz 
+        <Route path='/project-react-quiz-app-three/quiz' element={<Quiz 
           updateScore={updateScore} 
           count={count} 
           handleCount={handleCount}
           updateAnswers={updateAnswers} />}/>
-        <Route path='/result' element={<Result 
+        <Route path='/project-react-quiz-app-three/result' element={<Result 
           score={score} 
           questionAnswered={questionAnswered}
           count={count} 

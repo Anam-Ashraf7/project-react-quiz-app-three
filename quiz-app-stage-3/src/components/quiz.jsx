@@ -66,10 +66,10 @@ export default class Quiz extends Component {
           >
             Next
           </button>
-          <Link to="/result">
+          <Link to="/project-react-quiz-app-three/result">
             <button id="finishBtn">Finish</button>
           </Link>
-          <Link to="/">
+          <Link to="/project-react-quiz-app-three">
             <button
               id="quitBtn"
               onClick={() => {

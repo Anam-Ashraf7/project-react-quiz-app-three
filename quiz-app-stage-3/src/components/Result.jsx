@@ -36,7 +36,7 @@ export default class Result extends Component {
             </div>
         </div>
         <div>
-            <Link to="/quiz">
+            <Link to="/project-react-quiz-app-three/quiz">
                 <button id='playAgain'onClick={()=> {
                 this.props.setCount(0)
                 this.props.setScore(0)
@@ -47,7 +47,7 @@ export default class Result extends Component {
                 })
             }}>Play Again</button>
             </Link>
-            <Link to="/">
+            <Link to="/project-react-quiz-app-three">
                 <button id='goHome'>Back To Home</button>
             </Link>
         </div>

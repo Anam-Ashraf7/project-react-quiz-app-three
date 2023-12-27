@@ -13,7 +13,7 @@ export default class Home extends Component {
     return (
       <div id='home'>
         <h1>Quiz App</h1>
-        <Link to="/quiz">
+        <Link to="/project-react-quiz-app-three/quiz">
             <button onClick={()=> {
                 this.props.setCount(0)
                 this.props.setScore(0)
